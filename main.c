@@ -488,7 +488,7 @@ void			my_gamepad(void)
 			bolitas [bolicontador].x = ship_pos_x - 20;
 			bolitas[bolicontador].primigenio = 1;
 			bolitas [bolicontador].y = ship_pos_y;
-			bolitas [bolicontador].vector = -1;
+			bolitas [bolicontador].vector = 1;
 			bolicontador++;
 		}
 		cont = 0;
